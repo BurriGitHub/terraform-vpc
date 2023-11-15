@@ -23,6 +23,4 @@ resource "aws_nat_gateway" "nat" {
     Name = "${var.project}-nat"
     Project = var.project
   }
-
-
 }
